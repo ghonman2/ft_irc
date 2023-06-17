@@ -13,8 +13,8 @@
  *
  **********************************************************************/
 
-#include "headers.h"
-#include "Server.hpp"
+#include "./Util/headers.h"
+#include "./Server/Server.hpp"
 
 using namespace std;
 

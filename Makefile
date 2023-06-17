@@ -6,14 +6,14 @@
 #    By: tjo <tjo@student.42seoul.kr>               +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/25 14:51:43 by joowpark          #+#    #+#              #
-#    Updated: 2023/03/06 15:03:12 by joowpark         ###   ########.fr        #
+#    Updated: 2023/06/17 15:17:36 by joowpark         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME= ircserv
 CXX= c++
 SHELL = /bin/bash
-SRC = CommandManager.o Client.o Server.o main.o Channel.o Bot.o
+SRC = CommandManager/CommandManager.o Client/Client.o Server/Server.o main.o Channel/Channel.o Bot/Bot.o
 OFLAGS =
 CXXFLAGS += $(OFLAGS) -c
 CXXFLAGS += -Wall -Wextra -Werror -std=c++98 
